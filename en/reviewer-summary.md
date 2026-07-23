@@ -6,7 +6,7 @@ Potentially anomalous on-chain activity associated with project operators can ad
 
 ## Proposal
 
-ForeDex connects project-associated addresses with token and DEX data, evaluates configured conditions, and quantifies potential anomalies as reviewable signals. Reviewers are not limited to dashboard output: they can follow each result to the GIWA Sepolia Explorer and inspect contract state, event logs, wallet activity, and individual transactions as supporting evidence.
+ForeDex connects project-associated addresses with token and DEX data, evaluates configured conditions, and quantifies potential anomalies as reviewable signals. Supporting evidence can be inspected beyond the dashboard results through contract state, event logs, wallet activity, and transactions in the GIWA Sepolia Explorer.
 
 ## Core Messages
 
@@ -28,12 +28,11 @@ ForeDex connects project-associated addresses with token and DEX data, evaluates
 
 The **current scope** consists of a test token and preconfigured demo scenarios on GIWA Sepolia. The **target scope** is periodic monitoring across multiple projects and asset types. The target scope is not presented as a current operating result.
 
-## Results Available for Reviewer Inspection
+## Results Available for Inspection
 
 - The data and conditions evaluated by each rule
 - The distinction among the demo-disclosed supply, a configured value, and an on-chain observation
 - The procedure for reviewing why a signal was generated
 - The boundary between the current implementation and planned expansion
-- Interpretation limits, including false positives, false negatives, and testnet constraints
 
 Source: [GASOK Program and Evaluation Criteria](https://giwa.io/gasok)

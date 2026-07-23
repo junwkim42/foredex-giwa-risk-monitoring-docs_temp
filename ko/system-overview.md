@@ -9,7 +9,7 @@
 5. **결과 표시:** 대시보드에 상태와 근거 데이터를 제시합니다.
 6. **온체인 검증:** Explorer에서 컨트랙트·이벤트·트랜잭션을 확인합니다.
 
-![GIWA Risk Monitoring 대시보드 데모](assets/02.png)
+![GIWA Risk Monitoring 대시보드 화면](assets/02.png)
 
 ## 주요 입력
 

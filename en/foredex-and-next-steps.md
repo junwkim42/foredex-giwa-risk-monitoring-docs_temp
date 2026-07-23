@@ -13,7 +13,7 @@ ForeDex is a blockchain-based on-chain data platform. It develops data infrastru
 
 ## Related Intellectual Property
 
-According to materials provided by ForeDex, the company holds Korean Patent No. 10-2987801, `스테이블코인 디페깅 사전 탐지 시스템` (`Stablecoin Depegging Early Detection System`), relating to risk-detection technology.
+ForeDex holds Korean Patent No. 10-2987801, `스테이블코인 디페깅 사전 탐지 시스템` (`Stablecoin Depegging Early Detection System`), relating to risk-detection technology.
 
 ## Potential Expansion within the GIWA Ecosystem
 

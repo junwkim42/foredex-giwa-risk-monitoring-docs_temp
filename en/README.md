@@ -17,8 +17,7 @@ This documentation describes an **independent GIWA Sepolia demo project** prepar
 - Detection of a discrepancy between the demo-disclosed supply and the on-chain token supply
 - Detection of anomalous minting activity by an authorized address
 - Detection of a large net outflow from a project-controlled wallet
-- Detection of a concentrated DEX sell-off in a low-liquidity `RISK/DWETH` pool
-- An on-chain verification path from dashboard signals to contracts, logs, and transactions
+- Detection of a concentrated sell-off in the `RISK/DWETH` liquidity pool
 
 ## Recommended Reading Order
 

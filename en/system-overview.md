@@ -9,7 +9,7 @@
 5. **Present results:** Display the resulting states and supporting data on the dashboard.
 6. **Perform on-chain verification:** Review contracts, events, and transactions in the Explorer.
 
-![GIWA Risk Monitoring dashboard demo](assets/02.png)
+![GIWA Risk Monitoring dashboard screen](assets/02.png)
 
 ## Primary Inputs
 
