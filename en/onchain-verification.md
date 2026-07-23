@@ -1,7 +1,5 @@
 # Explorer-Based On-Chain Verification
 
-Dashboard signals must be reviewable against contract state, events, and transactions recorded on the public ledger.
-
 ## Reference Contract
 
 - Address: [`0xa1836f8251eab5704A8Fedc6b64278A70132f578`](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)
@@ -11,10 +9,9 @@ Dashboard signals must be reviewable against contract state, events, and transac
 - Deployment: Block `30,911,313` · [deployment transaction](https://sepolia-explorer.giwa.io/tx/0x3bd540b53ff1efa21b01539607b18e9f0b19a5484a0149288ca1603b48bf7a60) · `2026-07-17 02:47:09 UTC`
 - Owner and Treasury snapshot: [`0x8Bc3dF18Bf41aB83eda4919e9BD92905a79BB443`](https://sepolia-explorer.giwa.io/address/0x8Bc3dF18Bf41aB83eda4919e9BD92905a79BB443) at Block `31,403,117`
 
-<!-- IMAGE_PLACEHOLDER:IMG-09 -->
-> **Image placeholder IMG-09 — Explorer contract or Read Contract view**
->
-> Include the address, reference block, inspected function, and returned value in the caption.
+![](assets/08.png)
+
+> [[GIWA Sepolia Contract Link](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)]
 
 ## Registered Demo Project-Controlled Wallets
 
@@ -27,30 +24,6 @@ Dashboard signals must be reviewable against contract state, events, and transac
 | Marketing | [`0x39574ea1483e6a057bf2febc9b94b256da6b037`](https://sepolia-explorer.giwa.io/address/0x39574ea1483e6a057bf2febc9b94b256da6b037) | `CREATED_UNFUNDED` |
 
 The five addresses form a demo Registry used to explain the detection scope. At the time of verification, on-chain activity was confirmed only for the Main Treasury address. The other four addresses must not be characterized as active operating wallets.
-
-## Verification Procedure
-
-### Supply and Minting
-
-1. Confirm the contract verification status and token metadata.
-2. Review total supply at the reference block.
-3. Inspect `Transfer` events whose sender field is the zero address, or review the relevant minting function.
-4. Record the minting address, recipient address, amount, and execution time.
-5. Compare the observation with the `100,000,000 RISK` demo-disclosed supply while maintaining a clear distinction between the two values.
-
-### Large Net Outflow from a Project-Controlled Wallet
-
-1. Confirm that the project-controlled wallet address matches the address registered in the documentation.
-2. Aggregate token inflows and outflows over the configured time window.
-3. Review major recipient addresses and whether they are attributed to known entities such as DEXs, bridges, or exchanges.
-4. Reconcile the dashboard's net outflow value with the underlying transfer records.
-
-### Concentrated DEX Sell-Off
-
-1. Confirm the Pool, Router, and Factory addresses and the token pair.
-2. Review the called function and token movements in the relevant transactions.
-3. Review liquidity, execution volume, and price impact before and after the sale.
-4. Determine whether unregistered pools or routing paths fall outside the analysis scope.
 
 ## Representative Transactions and Supporting Status Evidence
 
@@ -66,27 +39,3 @@ The transactions below are demo examples cross-checked between risk events from 
 | Supply discrepancy | CRITICAL | This state-based event is verified against the supply state at [Block `31,358,185`](https://sepolia-explorer.giwa.io/block/31358185), rather than a single transaction |
 
 Each percentage is drawn from the event-evaluation data at the relevant time. A recalculation based on current balances, reserves, prices, or total supply may produce a different value.
-
-## Public Data Verification Paths
-
-- [Token Summary API](https://test.foredex.io/api/project-risk/giwa/token-summary)
-- [Monitoring Registry API](https://test.foredex.io/api/project-risk/giwa/registry)
-- [Project-Controlled Wallets API](https://test.foredex.io/api/project-risk/giwa/project-wallets)
-- [RISK Risk Events API](https://test.foredex.io/api/project-risk/giwa/risk-events?token_address=0xa1836f8251eab5704A8Fedc6b64278A70132f578&limit=200)
-
-These APIs provide public verification paths for the demo's dynamic data. Their inclusion does not constitute a fixed, versioned external API specification or an availability guarantee.
-
-## Reproduction Record Format
-
-```text
-observed_at:
-timezone:
-chain: GIWA Sepolia
-block_number:
-contract_or_wallet:
-rule:
-configured_threshold:
-observed_value:
-transaction_hashes:
-notes:
-```

@@ -4,10 +4,7 @@
 
 이 문서는 ForeDex가 GASOK 프로그램 제출을 위해 준비한 **GIWA Sepolia 기반 독립 데모 프로젝트**를 설명합니다. 테스트 토큰과 의도적으로 설계한 데모 시나리오(purpose-built demo scenario)를 이용해 온체인 이상 징후 탐지(on-chain anomaly detection), 위험 신호 정량화와 Explorer 재검증이 연결되는 흐름을 제시합니다.
 
-<!-- IMAGE_PLACEHOLDER:IMG-01 -->
-> **이미지 자리 IMG-01 — GIWA Risk Monitoring 대시보드 전체 화면**
->
-> 권장 캡션: `GIWA Sepolia 데모 대시보드. 캡처 시각, 기준 블록, demo-only 표기를 포함하세요.`
+![GIWA Risk Monitoring 대시보드 데모](assets/01.gif)
 
 ## 바로 확인하기
 
@@ -25,9 +22,9 @@
 
 ## 문서 읽는 순서
 
-처음 검토하는 심사자는 다음 순서를 권장합니다.
+다음 순서를 권장합니다.
 
-1. [심사자를 위한 핵심 요약](reviewer-summary.md)
+1. [핵심 요약](reviewer-summary.md)
 2. [시스템 및 데이터 흐름](system-overview.md)
 3. [탐지 시나리오](detection-scenarios.md)
 4. [Explorer 기반 온체인 검증](onchain-verification.md)

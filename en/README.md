@@ -4,10 +4,7 @@
 
 This documentation describes an **independent GIWA Sepolia demo project** prepared by ForeDex for submission to the GASOK program. Using a test token and purpose-built demo scenarios, the project presents a workflow for collecting on-chain state, quantifying risk signals, displaying the results on a dashboard, and independently reviewing the underlying evidence in an Explorer.
 
-<!-- IMAGE_PLACEHOLDER:IMG-01 -->
-> **Image placeholder IMG-01 — Full view of the GIWA Risk Monitoring dashboard**
->
-> Recommended caption: `GIWA Sepolia demo dashboard. Include the capture time, reference block, and a demo-only label.`
+![GIWA Risk Monitoring dashboard demo](assets/01.gif)
 
 ## Quick Links
 
@@ -25,9 +22,9 @@ This documentation describes an **independent GIWA Sepolia demo project** prepar
 
 ## Recommended Reading Order
 
-Reviewers assessing the project for the first time may follow this sequence:
+The following sequence is recommended:
 
-1. [Executive Summary for Reviewers](reviewer-summary.md)
+1. [Executive Summary](reviewer-summary.md)
 2. [System and Data Flow](system-overview.md)
 3. [Detection Scenarios](detection-scenarios.md)
 4. [Explorer-Based On-Chain Verification](onchain-verification.md)

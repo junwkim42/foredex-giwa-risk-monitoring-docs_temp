@@ -4,7 +4,7 @@
 
 ForeDex is a blockchain-based on-chain data platform. It develops data infrastructure for digital-asset and tokenized-asset markets through AI-based address classification and on-chain data analysis.
 
-## Capabilities Applied to the Project
+## ForeDex Capabilities
 
 - Experience collecting and normalizing on-chain data and associating it at the project level
 - An analytical structure that reviews project-related addresses, token supply, and DEX activity together
@@ -13,7 +13,7 @@ ForeDex is a blockchain-based on-chain data platform. It develops data infrastru
 
 ## Related Intellectual Property
 
-According to materials provided by ForeDex, the company holds Korean Patent No. 10-2987801, `스테이블코인 디페깅 사전 탐지 시스템` (`Stablecoin Depegging Early Detection System`), relating to risk-detection technology. The patent does not represent performance certification or exclusive rights covering all four rules in this demo.
+According to materials provided by ForeDex, the company holds Korean Patent No. 10-2987801, `스테이블코인 디페깅 사전 탐지 시스템` (`Stablecoin Depegging Early Detection System`), relating to risk-detection technology.
 
 ## Potential Expansion within the GIWA Ecosystem
 
@@ -23,11 +23,9 @@ According to materials provided by ForeDex, the company holds Korean Patent No. 
 4. Enhance rule-specific evidence transactions and the operator review workflow.
 5. Evaluate alert and project-information modules that could be used at user touchpoints such as GIWA Wallet.
 
-These items describe potential future expansion. They must not be interpreted as currently implemented features or confirmed GIWA Wallet integration.
-
 ## Project Relationship
 
-The project is an independent GIWA Sepolia demo prepared by ForeDex for submission to the GASOK program. It is not an official product of GIWA or Upbit and does not represent a partnership, endorsement, trading-support decision, or listing decision. The official GASOK information also states that selection for the program and its benefits are unrelated to whether Upbit provides trading support for a digital asset.
+The project is an independent GIWA Sepolia demo prepared by ForeDex for submission to the GASOK program. It is not an official product of GIWA or Upbit and does not represent a partnership, endorsement, trading-support decision, or listing decision.
 
 ## Contact
 

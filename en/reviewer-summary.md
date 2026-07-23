@@ -1,4 +1,4 @@
-# Executive Summary for Reviewers
+# Executive Summary
 
 ## Problem
 
@@ -16,15 +16,13 @@ ForeDex connects project-associated addresses with token and DEX data, evaluates
 
 ## Alignment with GASOK Evaluation Criteria
 
-| Evaluation perspective | Evidence provided by the demo |
-|---|---|
-| Fit with the GIWA chain | Chain-specific validation using a test token deployed on GIWA Sepolia and the public Explorer |
-| Originality | Quantification of composite risk signals from a project-operations perspective, beyond isolated transaction lookups |
-| Feasibility | An operating test dashboard and four purpose-built demo scenarios |
-| Marketability | A proposed monitoring workflow for exchanges, foundations, and project operators |
-| Team capability | Experience operating an on-chain data platform and, based on ForeDex-provided materials, ownership of a related risk-detection patent |
-| Potential for GIWA Wallet integration | A prospective integration path for alert and project-risk information modules, not a currently implemented function |
-| Implementation and technical completeness | A reproducible review procedure that presents dashboard results together with public on-chain evidence |
+- **Fit with the GIWA chain:** Chain-specific validation using a test token deployed on GIWA Sepolia and the public Explorer
+- **Originality:** Quantification of composite risk signals from a project-operations perspective, beyond isolated transaction lookups
+- **Feasibility:** An operating test dashboard and four purpose-built demo scenarios
+- **Marketability:** A proposed monitoring workflow for exchanges, foundations, and project operators
+- **Team capability:** Experience operating an on-chain data platform and, based on ForeDex-provided materials, ownership of a related risk-detection patent
+- **Potential for GIWA Wallet integration:** A prospective integration path for alert and project-risk information modules, not a currently implemented function
+- **Implementation and technical completeness:** A reproducible review procedure that presents dashboard results together with public on-chain evidence
 
 ## Current Scope and Target Scope
 

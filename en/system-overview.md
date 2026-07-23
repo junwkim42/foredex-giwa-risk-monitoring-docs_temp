@@ -9,20 +9,17 @@
 5. **Present results:** Display the resulting states and supporting data on the dashboard.
 6. **Perform on-chain verification:** Review contracts, events, and transactions in the Explorer.
 
-<!-- IMAGE_PLACEHOLDER:IMG-02 -->
-> **Image placeholder IMG-02 — System and data flow**
->
-> Recommended composition: `GIWA Sepolia → collection and normalization → project-level association → four detection rules → dashboard → Explorer verification`. Visually distinguish the current demo from the planned expansion scope.
+![GIWA Risk Monitoring dashboard demo](assets/02.png)
 
 ## Primary Inputs
 
-| Input | Role | Interpretation note |
-|---|---|---|
-| Token contract | Review total supply, permissions, and transfer and minting events | Proxy status and the reference block must be checked |
-| Project-controlled wallets | Review inflows, outflows, and DEX interactions | Address attribution and operational purpose require separate verification |
-| Disclosed or registered supply | Comparison baseline for on-chain supply | The reference date and unit must be explicit |
-| DEX Pool, Router, and Factory | Review swap routes and the liquidity environment | Unregistered pools or alternative routes may fall outside the scope |
-| Thresholds and time windows | Configure signal sensitivity | Values in the demo are illustrative thresholds, not universal standards |
+| Input | Role |
+|---|---|
+| Token contract | Review total supply, permissions, and transfer and minting events |
+| Project-controlled wallets | Review inflows, outflows, and DEX interactions |
+| Disclosed or registered supply | Comparison baseline for on-chain supply |
+| DEX Pool, Router, and Factory | Review swap routes and the liquidity environment |
+| Thresholds and time windows | Configure signal sensitivity |
 
 ## Meaning of the Output
 
@@ -30,4 +27,4 @@ A dashboard state is a **review-priority signal** produced by configured data an
 
 ## Current Demo and Target Architecture
 
-The current demo presents data collection and four detection workflows centered on the RISK test token. The project aims to extend the same data model and verification workflow to project tokens, RWAs, stablecoins, and DeFi protocols. These expansion items are plans and do not imply that the entire GIWA ecosystem is currently under monitoring.
+Values in this demo are illustrative. The current demo presents data collection and four detection workflows centered on the RISK test token. The project aims to extend the same data model and verification workflow to project tokens, RWAs, stablecoins, and DeFi protocols.

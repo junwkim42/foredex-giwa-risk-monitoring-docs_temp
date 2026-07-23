@@ -14,8 +14,7 @@ In the current demo, both the demo-disclosed supply and max supply are `100,000,
 
 **Result interpretation:** A discrepancy is a signal requiring review. Potentially legitimate explanations—including the disclosure reference date, units, burns, bridges, lockups, and migrations—must be investigated separately.
 
-<!-- IMAGE_PLACEHOLDER:IMG-04 -->
-> **Image placeholder IMG-04 — Supply discrepancy result**
+![Supply discrepancy](assets/06.png)
 
 ## 2. Anomalous Minting
 
@@ -27,8 +26,7 @@ In the current demo, both the demo-disclosed supply and max supply are `100,000,
 
 **Result interpretation:** Minting alone is not evidence of malicious conduct. The authorization policy, prior disclosures, issuance purpose, recipient address, and subsequent movements must also be reviewed.
 
-<!-- IMAGE_PLACEHOLDER:IMG-05 -->
-> **Image placeholder IMG-05 — Anomalous minting result and related block and transaction**
+![Anomalous minting](assets/06.png)
 
 ## 3. Large Net Outflow from a Project-Controlled Wallet
 
@@ -40,10 +38,9 @@ In the current demo, both the demo-disclosed supply and max supply are `100,000,
 
 **Result interpretation:** Legitimate purposes may include treasury operations, liquidity provision, custody transfers, bridging, vesting, or deposits to an exchange. The activity must not be characterized as fund flight or insider conduct before address attribution and counterparties are verified.
 
-<!-- IMAGE_PLACEHOLDER:IMG-06 -->
-> **Image placeholder IMG-06 — Project-controlled wallet net outflow result**
+![Project-controlled wallet net outflow](assets/04.png)
 
-## 4. Concentrated DEX Sell-Off in a Low-Liquidity Pool
+## 4. Concentrated DEX Sell-Off
 
 **Observed data:** Liquidity in the registered `RISK/DWETH` pool and swap activity by project-associated addresses
 
@@ -53,16 +50,7 @@ In the current demo, both the demo-disclosed supply and max supply are `100,000,
 
 **Result interpretation:** `DEX Dump` is the name of a rule in the dashboard, not a conclusive determination of market manipulation or misconduct. Liquidity depth, price impact, transacting entities, routing path, and recurrence must be reviewed together.
 
-<!-- IMAGE_PLACEHOLDER:IMG-07 -->
-> **Image placeholder IMG-07 — RISK/DWETH concentrated DEX sell-off result**
-
-## Common Verification Principles
-
-1. Record the dashboard observation time and reference block.
-2. Confirm the addresses, pool, illustrative threshold, and time window used by the detection rule.
-3. Review contract state and relevant events in the Explorer.
-4. Review the sender, recipient, called function, and token movements of representative transactions.
-5. Compare the evidence with project disclosures and operating context before reaching a conclusion.
+![Project-controlled wallet DEX sale](assets/04.png)
 
 > **Threshold Notice**
 >

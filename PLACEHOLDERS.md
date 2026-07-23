@@ -21,7 +21,6 @@ Every image should include:
 | IMG-05 | Detection scenarios | Abnormal mint state | Include related block or transaction link |
 | IMG-06 | Detection scenarios | Project-wallet net outflow state | Include monitored wallet and time window |
 | IMG-07 | Detection scenarios | Low-liquidity DEX dump state | Include pool and observation window |
-| IMG-08 | Dashboard guide | Result interpretation view | Explain status labels without outcome guarantees |
 | IMG-09 | On-chain verification | Contract page or Read Contract view | Include contract address and block |
 | TX-WARNING | On-chain verification | Representative WARNING transaction hash | Resolved with verified outflow and DEX transactions |
 | TX-CRITICAL | On-chain verification | Representative CRITICAL transaction hash | Resolved with verified outflow, mint, and DEX transactions |
