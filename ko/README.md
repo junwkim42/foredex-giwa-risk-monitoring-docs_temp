@@ -2,7 +2,7 @@
 
 > 프로젝트의 온체인 이상 징후를 조기에 탐지하여 신뢰할 수 있는 GIWA 생태계 조성에 기여하는 모니터링 시스템
 
-이 문서는 ForeDex가 GASOK 프로그램 제출을 위해 준비한 **GIWA Sepolia 기반 독립 데모 프로젝트**를 설명합니다. 테스트 토큰과 의도적으로 설계한 데모 시나리오(purpose-built demo scenario)를 이용해 온체인 이상 징후 탐지(on-chain anomaly detection), 위험 신호 정량화와 Explorer 재검증이 연결되는 흐름을 제시합니다.
+이 문서는 ForeDex가 GASOK 프로그램 제출을 위해 준비한 **GIWA Sepolia 기반 독립 데모 프로젝트**를 설명합니다. 테스트 토큰과 의도적으로 설계한 데모 시나리오를 이용해 온체인 이상 징후 탐지, 위험 신호 정량화와 Explorer 재검증이 연결되는 흐름을 제시합니다.
 
 {% embed url="https://www.youtube.com/watch?v=oz82q8OisM0&autoplay=1&mute=1&loop=1" %}
 
@@ -16,7 +16,7 @@
 
 - 공시된 공급량과 온체인 공급량의 불일치 식별
 - 권한 있는 주소의 추가 민팅 활동 식별
-- 프로젝트 지갑(project-controlled wallet)의 대규모 순유출 신호 식별
+- 프로젝트 관련 지갑의 대규모 순유출 신호 식별
 - `RISK/DWETH` 유동성풀에서의 집중 매도 신호 식별
 
 ## 문서 읽는 순서

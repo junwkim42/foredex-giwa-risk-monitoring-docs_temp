@@ -8,8 +8,8 @@
 ## 설계와 데모
 
 * [시스템 및 데이터 흐름](system-overview.md)
-* [GIWA Sepolia 데모 환경](demo-environment.md)
 * [탐지 시나리오](detection-scenarios.md)
+* [GIWA Sepolia 데모 환경](demo-environment.md)
 
 ## 검증과 범위
 
