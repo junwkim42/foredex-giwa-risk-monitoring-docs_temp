@@ -6,7 +6,7 @@
 
 ## 기본 구성
 
-- **네트워크:** GIWA Sepolia 테스트넷, Chain ID `91342`
+- **네트워크:** GIWA Sepolia Testnet, Chain ID `91342`
 - **테스트 토큰:** `Unified Risk Example` (`RISK`), 소수점 18자리(decimals)
 - **토큰 컨트랙트:** [`0xa1836f8251eab5704A8Fedc6b64278A70132f578`](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract), 검증된 프록시 비사용(non-proxy) 컨트랙트
 - **공시 공급량 기준:** `100,000,000 RISK` — 데모 비교 기준
