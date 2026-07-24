@@ -25,7 +25,7 @@ ForeDex holds Korean Patent No. 10-2987801, `스테이블코인 디페깅 사전
 
 ## Project Relationship
 
-The project is an independent GIWA Sepolia demo prepared by ForeDex for submission to the GASOK program. It is not an official product of GIWA or Upbit and does not represent a partnership, endorsement, trading-support decision, or listing decision.
+The project is an independent GIWA Testnet-based demo prepared by ForeDex for submission to the GASOK program. It is not an official product of GIWA or Upbit and does not represent a partnership, endorsement, trading-support decision, or listing decision.
 
 ## Contact
 

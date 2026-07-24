@@ -24,7 +24,7 @@ In the current demo, both the demo-disclosed supply and max supply are `100,000,
 
 **Illustrative decision rule:** Cumulative minted supply of at least `90%` of the demo-disclosed supply produces a WARNING, while more than `100%` produces a CRITICAL. Under a supplementary 10-minute rule, additional minting divided by the on-chain total supply immediately before minting produces a WARNING at `1%` or more and a CRITICAL at `20%` or more. Cumulative minted supply does not decrease after tokens are burned.
 
-**Result interpretation:** Minting alone is not evidence of malicious conduct. The authorization policy, prior disclosures, issuance purpose, recipient address, and subsequent movements must also be reviewed.
+**Result interpretation:** Large-scale additional minting outside a disclosed or approved issuance plan is an anomaly indicating an arbitrary expansion of the token supply. In particular, if newly issued tokens move through project-related wallets to a DEX or exchange deposit address, the activity may be interpreted as anomalous behavior associated with a potential market sale.
 
 ![Anomalous minting](assets/06.png)
 
@@ -36,7 +36,7 @@ In the current demo, both the demo-disclosed supply and max supply are `100,000,
 
 **Illustrative decision rule:** Within a 15-minute observation window, a net outflow of at least `10%` of the starting balance produces a WARNING, while at least `30%` produces a CRITICAL. Transfers to a DEX Pool are included; movements among registered internal wallets and mint and burn activity are excluded.
 
-**Result interpretation:** Legitimate purposes may include treasury operations, liquidity provision, custody transfers, bridging, vesting, or deposits to an exchange. The activity must not be characterized as fund flight or insider conduct before address attribution and counterparties are verified.
+**Result interpretation:** When assets substantially exceeding the normal transaction size move from a core project wallet to external addresses within a short period, the activity is an anomaly indicating an abnormal outflow of project-held assets. In particular, repeated large net outflows without prior disclosure, or assets moving to exchange deposit addresses or a DEX, may be interpreted as anomalous behavior associated with insider selling, asset disposal, or liquidity withdrawal.
 
 ![Project-controlled wallet net outflow](assets/04.png)
 
@@ -48,7 +48,7 @@ In the current demo, both the demo-disclosed supply and max supply are `100,000,
 
 **Illustrative decision rule:** Both a price decline and the project-controlled wallet's sell ratio must satisfy their respective conditions within a five-minute observation window. A price decline of at least `10%` together with a sale equal to at least `5%` of the Pool's starting RISK reserve produces a WARNING; the corresponding CRITICAL thresholds are at least `20%` and `10%`. Only sales by registered project-controlled wallets are evaluated as risk events. Swaps by external wallets are reflected only in chart observations.
 
-**Result interpretation:** `DEX Dump` is the name of a rule in the dashboard, not a conclusive determination of market manipulation or misconduct. Liquidity depth, price impact, transacting entities, routing path, and recurrence must be reviewed together.
+**Result interpretation:** When a project-related wallet executes a large sale through a DEX pool within a short period, the activity is an anomaly indicating concentrated disposal of its holdings. In particular, a high sell ratio relative to liquidity or repeated similar transactions may be interpreted as anomalous behavior associated with dumping or liquidity withdrawal that could cause market impact.
 
 ![Project-controlled wallet DEX sale](assets/04.png)
 

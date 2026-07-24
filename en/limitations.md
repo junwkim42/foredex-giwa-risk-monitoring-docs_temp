@@ -2,7 +2,7 @@
 
 ## Demo Scope
 
-This documentation describes a ForeDex demo conducted on the GIWA Sepolia testnet. The test token, project-controlled wallet, DEX pool, supply baseline, and illustrative thresholds are configured examples for presenting the detection workflow. They are not an assessment of a real project or a production operating result.
+This documentation describes a ForeDex demo conducted on the GIWA testnet. The test token, project-controlled wallet, DEX pool, supply baseline, and illustrative thresholds are configured examples for presenting the detection workflow. They are not an assessment of a real project or a production operating result.
 
 ## Principal Limitations
 

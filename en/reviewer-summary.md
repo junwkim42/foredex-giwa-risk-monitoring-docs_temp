@@ -16,7 +16,7 @@ ForeDex connects project-associated addresses with token and DEX data, evaluates
 
 ## Alignment with GASOK Evaluation Criteria
 
-- **Fit with the GIWA chain:** Chain-specific validation using a test token deployed on GIWA Sepolia and the public Explorer
+- **Fit with the GIWA chain:** Chain-specific validation using a test token deployed in the GIWA Testnet environment and the public Explorer
 - **Originality:** Quantification of composite risk signals from a project-operations perspective, beyond isolated transaction lookups
 - **Feasibility:** An operating test dashboard and four purpose-built demo scenarios
 - **Marketability:** A proposed monitoring workflow for exchanges, foundations, and project operators
@@ -26,7 +26,7 @@ ForeDex connects project-associated addresses with token and DEX data, evaluates
 
 ## Current Scope and Target Scope
 
-The **current scope** consists of a test token and preconfigured demo scenarios on GIWA Sepolia. The **target scope** is periodic monitoring across multiple projects and asset types. The target scope is not presented as a current operating result.
+The **current scope** consists of a test token and preconfigured demo scenarios on GIWA Testnet. The **target scope** is periodic monitoring across multiple projects and asset types.
 
 ## Results Available for Inspection
 

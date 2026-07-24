@@ -8,8 +8,8 @@
 ## Design and Demo
 
 * [System and Data Flow](system-overview.md)
-* [GIWA Sepolia Demo Environment](demo-environment.md)
 * [Detection Scenarios](detection-scenarios.md)
+* [GIWA Testnet Environment](demo-environment.md)
 
 ## Verification and Scope
 

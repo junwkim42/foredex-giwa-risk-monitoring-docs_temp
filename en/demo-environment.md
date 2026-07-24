@@ -1,4 +1,4 @@
-# GIWA Sepolia Demo Environment
+# GIWA Testnet Demo Environment
 
 ## Demo Objective
 
@@ -19,15 +19,13 @@ Rather than asserting a risk determination about a real project, the demo intent
 
 ## Interpreting Supply Figures
 
-`100,000,000 RISK` is the comparison baseline serving as the demo-disclosed supply. `150,000,000 RISK` is the initial minted supply configured to intentionally create a discrepancy. In the verified source code, the two values are declared as the `DISCLOSED_SUPPLY` and `ACTUAL_INITIAL_SUPPLY` constants, respectively, and the constructor mints the initial `150,000,000 RISK`.
-
-In the verification snapshot at `2026-07-22 19:25:15 UTC` (Block `31,403,199`), the on-chain total supply, including additional minting, was `253,000,000 RISK`. The following three values must therefore remain distinct.
+`100,000,000 RISK` is the comparison baseline serving as the demo-disclosed supply. `150,000,000 RISK` is the initial minted supply configured to intentionally create a discrepancy. The following three values must therefore remain distinct.
 
 - **`100,000,000 RISK`:** Demo-disclosed supply registered for monitoring and the configured max supply
 - **`150,000,000 RISK`:** Initial minted supply at deployment
-- **`253,000,000 RISK`:** Total supply in the `2026-07-22 19:25:15 UTC`, Block `31,403,199` snapshot
+- **`253,000,000 RISK`:** Total supply in the latest snapshot
 
-The dashboard's `100,000,000 RISK` max supply is a monitoring configuration, not an issuance cap enforced by the contract. At `2026-07-22 19:23:53 UTC`, Block `31,403,117`, the observed Owner could execute the `onlyOwner` minting function. The Owner state may change after that block.
+The dashboard's `100,000,000 RISK` max supply is a monitoring configuration, not an issuance cap enforced by the contract.
 
 ## Public Demo DEX Configuration
 
@@ -38,6 +36,6 @@ The dashboard's `100,000,000 RISK` max supply is a monitoring configuration, not
 
 ## Test Token
 
-GIWA Sepolia test tokens are development and validation assets with no economic value. The testnet may experience delays, errors, chain reorganizations, rollbacks, or data resets.
+Test tokens in the GIWA Testnet environment are development and validation assets with no economic value. The testnet may experience delays, errors, chain reorganizations, rollbacks, or data resets.
 
 Sources: [Connect to the GIWA Network](https://docs.giwa.io/get-started/connect-to-giwa) · [GIWA Testnet Terms of Use](https://docs.giwa.io/terms-and-policies/testnet-terms-of-use) · [RISK Contract](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)

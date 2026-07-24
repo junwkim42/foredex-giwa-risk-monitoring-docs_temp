@@ -13,7 +13,7 @@
 
 ![](assets/08.png)
 
-> [[GIWA Sepholia Contract Link](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)]
+> [[GIWA Testnet Contract Link](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)]
 
 ## 등록된 데모 프로젝트 지갑
 
@@ -29,7 +29,7 @@
 
 ## 대표 거래와 상태 근거
 
-아래 거래는 공개 API의 위험 이벤트와 GIWA Sepolia Explorer의 성공 거래를 대조한 데모 예시입니다.
+아래 거래는 공개 API의 위험 이벤트와 GIWA Testnet Explorer의 성공 거래를 대조한 데모 예시입니다.
 
 | 규칙 | 등급 | 검증 가능한 예시 |
 |---|---|---|

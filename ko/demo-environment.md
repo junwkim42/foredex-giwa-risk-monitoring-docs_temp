@@ -1,4 +1,4 @@
-# GIWA Sepolia 데모 환경
+# GIWA Testnet 데모 환경
 
 ## 데모 목적
 
@@ -37,6 +37,6 @@
 
 ## 테스트 토큰
 
-GIWA Sepolia의 테스트 토큰은 경제적 가치가 없는 개발·검증용 자산입니다. 테스트넷에는 지연, 오류, 체인 재구성(chain reorganization, reorg), 롤백 또는 데이터 초기화가 발생할 수 있습니다.
+GIWA Testnet 환경의 테스트 토큰은 경제적 가치가 없는 개발·검증용 자산입니다. 테스트넷에는 지연, 오류, 체인 재구성(chain reorganization, reorg), 롤백 또는 데이터 초기화가 발생할 수 있습니다.
 
 출처: [GIWA 네트워크 연결 정보](https://docs.giwa.io/get-started/connect-to-giwa) · [GIWA 테스트넷 이용약관](https://docs.giwa.io/terms-and-policies/testnet-terms-of-use) · [RISK 컨트랙트](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)

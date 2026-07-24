@@ -11,7 +11,7 @@
 
 ![](assets/08.png)
 
-> [[GIWA Sepolia Contract Link](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)]
+> [[GIWA Testnet Contract Link](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)]
 
 ## Registered Demo Project-Controlled Wallets
 
@@ -27,7 +27,7 @@ The five addresses form a demo Registry used to explain the detection scope. At 
 
 ## Representative Transactions and Supporting Status Evidence
 
-The transactions below are demo examples cross-checked between risk events from the public API and successful transactions in the GIWA Sepolia Explorer.
+The transactions below are demo examples cross-checked between risk events from the public API and successful transactions in the GIWA Testnet Explorer.
 
 | Rule | Severity | Verifiable example |
 |---|---|---|

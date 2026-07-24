@@ -1,15 +1,16 @@
 # GIWA 생태계 온체인 이상 징후 탐지 시스템
 
-> 프로젝트의 온체인 이상 징후를 조기에 탐지하여 신뢰할 수 있는 GIWA 생태계 조성에 기여하는 모니터링 시스템
+> 프로젝트의 온체인 이상 징후를 조기에 탐지하여,
+> 신뢰할 수 있는 GIWA 생태계를 만드는 모니터링 시스템
 
-이 문서는 ForeDex가 GASOK 프로그램 제출을 위해 준비한 **GIWA Sepolia 기반 독립 데모 프로젝트**를 설명합니다. 테스트 토큰과 의도적으로 설계한 데모 시나리오를 이용해 온체인 이상 징후 탐지, 위험 신호 정량화와 Explorer 재검증이 연결되는 흐름을 제시합니다.
+이 문서는 ForeDex가 GASOK 프로그램 제출을 위해 준비한 **GIWA Testnet 기반 독립 데모 프로젝트**를 설명합니다. 테스트 토큰과 의도적으로 설계한 데모 시나리오를 이용해 온체인 이상 징후 탐지, 위험 신호 정량화와 Explorer 재검증이 연결되는 흐름을 제시합니다.
 
 {% embed url="https://www.youtube.com/watch?v=oz82q8OisM0&autoplay=1&mute=1&loop=1" %}
 
 ## 바로 확인하기
 
 - [ForeDex 테스트 대시보드](https://test.foredex.io/charts/altcoin/giwa-risk-monitoring)
-- [RISK 컨트랙트 — GIWA Sepolia Explorer](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)
+- [RISK 컨트랙트 — GIWA Testnet Explorer](https://sepolia-explorer.giwa.io/address/0xa1836f8251eab5704A8Fedc6b64278A70132f578?tab=contract)
 - [GASOK 공식 안내](https://giwa.io/gasok)
 
 ## 데모가 보여주는 것
